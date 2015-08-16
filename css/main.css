@@ -1,0 +1,71 @@
+/**
+ * File name: css/main.css
+ * CSS =  Cascade Style Sheet
+ * This is the main style file
+ * Selector { reglas }
+ */
+
+/* This slects the body tag */
+body{
+  background-color: #eee;
+}
+
+/* this selects the Id */
+#mainMenu{
+
+}
+
+/* This selects a class */
+ul.menu{
+  list-style: none;
+}
+/*
+Display property
+display: none;
+display: inline;
+display: block;
+display: contents;
+display: list-item;
+display: inline-block;
+display: inline-table;
+display: table;
+display: table-cell;
+display: table-column;
+display: table-column-group;
+display: table-footer-group;
+display: table-header-group;
+display: table-row;
+display: table-row-group;
+display: flex;
+display: inline-flex;
+display: grid;
+display: inline-grid;
+display: ruby;
+display: ruby-base;
+display: ruby-text;
+display: ruby-base-container;
+display: ruby-text-container ;
+display: run-in;
+*/
+/*cuadro rojo, con un borde 2px azul de 200 * 200*/
+
+ul.menu li{
+  display: inline;
+}
+
+.box{
+  border: 1px solid red;
+  height: 100px;
+  background-color: purple;
+  margin: 2px 4px 2px 4px;
+  width: 100px;
+  display: inline-block;
+}
+
+#cuadro{
+  background-image: linear-gradient(0deg, purple, red); /* #FF0000; red */
+  border: 2px solid blue; /* 0000FF */
+  height: 200px;
+  width: 200px;
+  border-radius: 4px 20px 40px;
+}
