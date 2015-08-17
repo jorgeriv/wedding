@@ -1,0 +1,75 @@
+/**
+ * File name: css/main.css
+ * CSS =  Cascade Style Sheet
+ * This is the main style file
+ * Selector { reglas }
+ */
+
+/* This slects the body tag */
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #eee;
+  font-size:14px;
+  font-family:sans,verdana;
+}
+
+header{
+  background-image: linear-gradient(135deg, pink, purple);
+  height:100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  position:absolute;
+}
+main{
+  min-height:100px;
+  position:absolute;
+  top:100%;
+}
+footer{
+  background-color:#444;
+  color:#eee;
+  position:fixed;
+  bottom:0;
+  padding:12px 26px;
+}
+
+/* this selects the Id */
+#mainMenu{
+  background-color: #6666ff;
+  font-weight:bold;
+  position:relative;
+  bottom:0;
+  width:100%;
+}
+#mainMenu a{
+  color:white;
+  bottom: 0;
+  font-size: 1.2em;
+}
+
+/* This selects a class */
+ul.menu{
+  list-style: none;
+  margin:0;
+}
+
+ul.menu li{
+  display: inline;
+}
+
+ul.menu li a{
+  text-decoration: none;
+  padding: 12px 6px;
+  display:inline-block;
+}
+
+ul.menu li a:hover{
+  background-color: #4444dd;
+  color:pink;
+}
+
