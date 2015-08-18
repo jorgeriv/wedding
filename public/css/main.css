@@ -9,42 +9,55 @@
 html, body{
   margin: 0;
   padding: 0;
+  height:100%;
 }
 
 body{
   background-color: #eee;
   font-size:14px;
   font-family:sans,verdana;
+  overflow:hidden;
 }
 
 header{
-  background-image: linear-gradient(135deg, pink, purple);
+
   height:100%;
   width:100%;
   margin: 0;
   padding: 0;
-  position:absolute;
 }
+#splash{
+  background: #996940 url(../img/cardboard_01.jpg) repeat top left;
+  height:100%;
+  font-family: 'Dancing Script', cursive;
+  font-size:2em;
+}
+
+#waxSeal{
+  position:relative;
+  top:50%;
+  height:230px;
+  width:300px;
+  background: #996940 url(../img/r-wax-seal.jpg) no-repeat center center;
+  margin: 0 auto;
+}
+
 main{
-  min-height:100px;
-  position:absolute;
-  top:100%;
+
 }
 footer{
   background-color:#444;
   color:#eee;
-  position:fixed;
   bottom:0;
   padding:12px 26px;
 }
 
 /* this selects the Id */
 #mainMenu{
-  background-color: #6666ff;
+  background-color: red;
   font-weight:bold;
   position:relative;
-  bottom:0;
-  width:100%;
+  top:-80px;
 }
 #mainMenu a{
   color:white;
