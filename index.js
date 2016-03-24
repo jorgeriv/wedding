@@ -1,6 +1,6 @@
 /**
  * Basic static server
- * Authors: Yolanda Ribas & Jorge Rivera
+ * Authors: Yolanda Ribas & Jorge Rivera 
 */
 var app = require('connect')();
 var staticServer = require('serve-static'); // Require static server middleware
@@ -10,4 +10,3 @@ app.use(staticServer('public'));
 
 app.listen(port, hostName);
 console.log('Connect server is listening at port: %s in server: %s', port, hostName);
-
