@@ -3,27 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>wedding</title>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
+  <script src="app/main.js"></script>
+  <script src="app/router.js"></script>
+
+  <script src="app/components/main/main.controller.js"></script>
+  <script src="app/components/gallery/gallery.controller.js"></script>
 </head>
-<body>
+<body ng-app="weddingApp">
     <header>
         <h1>Yolanda &amp; Jorge </h1>
         <h3> Marzo 15, 2017 </h3>
-        
-    <nav> 
+    <nav>
         <ul>
             <li><a href="#">La ceremonia</a></li>
-            <li><a href="#">Fotos</a></li>
+            <li><a href="#/gallery">Fotos</a></li>
             <li><a href="#">Buzón</a></li>
             <li><a href="#">Mesa de regalos</a></li>
             <li><a href="#">Otros eventos</a></li>
             <li><a href="#">Padrinos</a></li>
             <li><a href="#">Quiz</a></li>
         </ul>
-        
+
     </nav>
-    
+
     </header>
-    
-    
+
+    <ng-view></ng-view>
 </body>
 </html>
