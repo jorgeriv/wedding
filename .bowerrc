@@ -1,5 +1,5 @@
 {
-  "directory": "client/components/",
+  "directory": "client/lib",
   "analytics": false,
   "timeout": 120000
 }
