@@ -40,11 +40,9 @@ nav#main-nav a{
 }
 
 .box{
-	width: 50%;
-	height: 300px;
-	display: inline-block;
+	min-height: 300px;
 	background: #666;
 	box-sizing: border-box;
 	overflow: hidden;
-	padding: 5px;
+	padding: 5px 15px;
 }
