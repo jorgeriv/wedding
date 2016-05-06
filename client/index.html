@@ -17,32 +17,30 @@
   <script src="app/components/other-events/other-events.controller.js"></script>
   <script src="app/components/quiz/quiz.controller.js"></script>
   <script src="app/components/registry/registry.controller.js"></script>
-  
-  <link type="text/css" rel="stylesheet" href="app/assets/style.css"/>
+
   <link href='https://fonts.googleapis.com/css?family=Pinyon+Script|Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="lib/normalize/normalize.css"/>
+  <link type="text/css" rel="stylesheet" href="app/assets/master.css"/>
+  <link type="text/css" rel="stylesheet" href="app/assets/layout.css"/>
 
 </head>
 <body ng-app="weddingApp">
-    <header>
-        <h1>Yolanda &amp; Jorge </h1>
-        <h3> Marzo 15, 2017 </h3>
-    <nav>
-        <ul>
-            <li><a href="#/ceremony">La ceremonia</a></li>
-            <li><a href="#/gallery">Fotos</a></li>
-            <li><a href="#/mail-box">Buzón</a></li>
-            <li><a href="#/registry">Mesa de regalos</a></li>
-            <li><a href="#/other-events">Otros eventos</a></li>
-            <li><a href="#/guys">Padrinos</a></li>
-            <li><a href="#/quiz">Quiz</a></li>
-        </ul>
+  <header>
+    <h1>Yolanda &amp; Jorge </h1>
+    <h3> Marzo 15, 2017 </h3>
+    <nav id="main-nav">
+      <ul class="menu menu-horizontal">
+        <li><a href="#/ceremony">La ceremonia</a></li>
+        <li><a href="#/gallery">Fotos</a></li>
+        <li><a href="#/mail-box">Buzón</a></li>
+        <li><a href="#/registry">Mesa de regalos</a></li>
+        <li><a href="#/other-events">Otros eventos</a></li>
+        <li><a href="#/guys">Padrinos</a></li>
+        <li><a href="#/quiz">Quiz</a></li>
+      </ul>
 
     </nav>
-
-    </header>
-
-   
-   
-    <ng-view></ng-view>
+  </header>
+  <ng-view></ng-view>
 </body>
 </html>
