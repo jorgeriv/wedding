@@ -2,8 +2,8 @@ angular.module('weddingApp')
   .config(function($routeProvider){ 'use strict';
     $routeProvider
       .when('/', {
-        controller: 'mainCtr',
-        templateUrl: 'app/components/main/main.template.html'
+        controller: 'landingCtr',
+        templateUrl: 'app/components/landing-page/landing-page.template.html'
       })
       .when('/gallery', {
         controller: 'galleryCtr',
@@ -13,11 +13,7 @@ angular.module('weddingApp')
         controller: 'ceremonyCtr',
         templateUrl: 'app/components/ceremony/ceremony.template.html'
       })
-			.when('/landing-page', {
-        controller: 'landingCtr',
-        templateUrl: 'app/components/landing-page/landing-page.template.html'
-      })
-    .when('/guys', {
+			.when('/guys', {
         controller: 'guysCtr',
         templateUrl: 'app/components/guys/guys.template.html'
       })

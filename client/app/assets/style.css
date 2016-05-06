@@ -1,0 +1,76 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+	font-family: 'Josefin Sans', sans-serif;	
+	font-weight: 700;
+		
+}
+
+header>h1 {
+	font-family: 'Pinyon Script', cursive;
+	text-align: center;
+	font-size: 80px;
+	font-weight: 400;
+}
+
+header>h3 {
+	font-family: 'Josefin Sans', sans-serif;	
+	text-align: center;
+	font-size: 35px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+/* 
+Los anclas tienen por defecto display inline, colocamos inline-block para que acepte el padding
+ */
+nav ul a{
+	text-decoration: none;	
+	display: inline-block; 
+	padding: 0.4em 0.6em;
+}
+
+nav li {
+	display: inline-block;
+}
+
+#countdown {
+	font-size: 2em;
+	text-align: center;
+	background: black;
+	color: white;
+}
+
+#countdown>span {
+	font-weight: 700;
+	
+}
+.main-image{
+	background: grey;
+	width: 100%;
+	height: 600px;
+}
+
+.box{
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+	background: #666;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 5px;
+}
+
+
+
+
