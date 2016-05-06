@@ -1,0 +1,32 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0;
+}
+
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 700;
+}
+
+/* Menus */
+ul.menu{
+  list-style: none;
+	padding: 0;
+}
+
+.menu a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4em 0.6em;
+}
+
+.menu a:hover{
+  text-decoration: underline;
+}
+
+ul.menu-horizontal li{
+  display: inline-block;
+}
