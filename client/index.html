@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>wedding</title>
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-route/angular-route.js"></script>
@@ -10,6 +10,14 @@
 
   <script src="app/components/main/main.controller.js"></script>
   <script src="app/components/gallery/gallery.controller.js"></script>
+  <script src="app/components/ceremony/ceremony.controller.js"></script>
+  <script src="app/components/guys/guys.controller.js"></script>
+  <script src="app/components/landing-page/landing-page.controller.js"></script>
+  <script src="app/components/mail-box/mail-box.controller.js"></script>
+  <script src="app/components/other-events/other-events.controller.js"></script>
+  <script src="app/components/quiz/quiz.controller.js"></script>
+  <script src="app/components/registry/registry.controller.js"></script>
+
 </head>
 <body ng-app="weddingApp">
     <header>
@@ -17,19 +25,21 @@
         <h3> Marzo 15, 2017 </h3>
     <nav>
         <ul>
-            <li><a href="#">La ceremonia</a></li>
+            <li><a href="#/ceremony">La ceremonia</a></li>
             <li><a href="#/gallery">Fotos</a></li>
-            <li><a href="#">Buzón</a></li>
-            <li><a href="#">Mesa de regalos</a></li>
-            <li><a href="#">Otros eventos</a></li>
-            <li><a href="#">Padrinos</a></li>
-            <li><a href="#">Quiz</a></li>
+            <li><a href="#/mail-box">Buzón</a></li>
+            <li><a href="#/registry">Mesa de regalos</a></li>
+            <li><a href="#/other-events">Otros eventos</a></li>
+            <li><a href="#/guys">Padrinos</a></li>
+            <li><a href="#/quiz">Quiz</a></li>
         </ul>
 
     </nav>
 
     </header>
 
+   
+   
     <ng-view></ng-view>
 </body>
 </html>
