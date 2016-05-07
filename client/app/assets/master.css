@@ -92,3 +92,11 @@ ul.menu-horizontal li{
 .unit-5-5{
   width: 100%;
 }
+
+.center{
+	text-align: center;
+}
+
+.main-title{
+	text-transform: uppercase;
+}

@@ -1,13 +1,11 @@
 header>h1 {
 	font-family: 'Pinyon Script', cursive;
-	text-align: center;
 	font-size: 80px;
 	font-weight: 400;
 }
 
 header>h3 {
-	text-align: center;
-	font-size: 35px;
+	font-size: 1em;
 }
 
 nav#main-nav ul{
@@ -45,4 +43,11 @@ nav#main-nav a{
 	box-sizing: border-box;
 	overflow: hidden;
 	padding: 5px 15px;
+}
+
+.title-gallery{
+	margin: -35px;
+	margin-left: 20px;
+	color: white;
+	text-shadow: 1px 1px 3px black; 
 }
