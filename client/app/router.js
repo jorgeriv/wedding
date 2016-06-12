@@ -7,6 +7,10 @@ angular.module('weddingApp')
       })
       .when('/gallery', {
         controller: 'galleryCtr',
+        templateUrl: 'app/components/gallery/galleries.template.html'
+      })
+		.when('/gallery/:id/?photo/:photoId', {
+        controller: 'galleryCtr',
         templateUrl: 'app/components/gallery/gallery.template.html'
       })
 		  .when('/ceremony', {

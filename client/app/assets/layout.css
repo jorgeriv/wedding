@@ -51,3 +51,7 @@ nav#main-nav a{
 	color: white;
 	text-shadow: 1px 1px 3px black; 
 }
+
+.content{
+	padding: 0 25px;
+}
