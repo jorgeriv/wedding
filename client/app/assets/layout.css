@@ -69,7 +69,7 @@ nav#main-nav a{
 fieldset{
 	border: none;
 }
-h2{
+h2#buzon{
 	text-align: center;
 	text-shadow: 0 2px 1px #DCDCDC;
 	margin: 0;
@@ -81,14 +81,14 @@ h2{
 	border: 1px solid #DAA520;
 	cursor: pointer; /*aparecerá la manito encima del boton NEW (for me)!!*/
 }
-div{
+div#formulario {
 	padding: 25px;
 	margin: auto;
 	border: 1px dashed #ccc;
 	width: 396px;
 	height: 245px;
 }
-h2::after, h2::before {  
+h2#buzon::after, h2#buzon::before {  
 	content: " "; 
 	height: 1px;
 	width: 120px;
@@ -96,11 +96,11 @@ h2::after, h2::before {
 	position: relative;
 	top: -3px;
 }
-h2::after {
+h2#buzon::after {
 	background-image: linear-gradient(to right, #777, #fff);
 	left: 20px;
 }
-h2::before {
+h2#buzon::before {
 	background-image: linear-gradient(to left, #777, #fff);
 	right: 20px;
 }
