@@ -146,4 +146,6 @@ text-align: center;
 }
 .noviazgo {
 background: url(../components/gallery/photos/noviazgo/1.jpg);
+background-size: cover;
+height: 300px;
 }
