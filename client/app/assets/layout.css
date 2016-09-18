@@ -51,7 +51,7 @@ nav#main-nav a{
 	margin: -35px;
 	margin-left: 20px;
 	color: white;
-	text-shadow: 1px 1px 3px black; 
+	text-shadow: 1px 1px 3px black;
 }
 
 .content{
@@ -60,12 +60,12 @@ nav#main-nav a{
 
 /*____Formulario de mensajes para los novios__________*/
 #login {
-	background-image: linear-gradient( to top, #fff, #eee);	
+	background-image: linear-gradient( to top, #fff, #eee);
 	width: 450px;
 	height: 300px;
 	border-radius: 10px;
 	padding: 6px;
-	margin: auto;	
+	margin: auto;
 	box-shadow: 0px 10px 10px 5px #C0C0C0;
 }
 fieldset{
@@ -91,8 +91,8 @@ div#formulario {
 	width: 396px;
 	height: 245px;
 }
-h2#buzon::after, h2#buzon::before {  
-	content: " "; 
+h2#buzon::after, h2#buzon::before {
+	content: " ";
 	height: 1px;
 	width: 120px;
 	display: inline-block;
@@ -122,10 +122,10 @@ input{
 #boton:hover{
 	background: #fddb6f;
 	background-image: linear-gradient(to top, #ffb94b, #fddb6f);
-	
+
 }
 /*____fin formulario de mensajes para los novios__________*/
-#iniciosesion { 
+#iniciosesion {
 	display: block;
 	text-align: right;
 }
@@ -133,22 +133,17 @@ p.ceremonymessage{
 	margin: 50px;
 }
 li{
-list-style: none;	
+list-style: none;
 }
 div.mesa{
-text-align: center;	
+text-align: center;
 }
 .mesas ul {
 padding: 0;
 }
 div.mesa{
-text-align: center;	
+text-align: center;
 }
 .noviazgo {
-background: url(C:\Users\Yolanda Ribas\Desktop\wedding\client\app\components\gallery\photos\1.JPG);
-
+	background: url(../components/gallery/photos/1.jpg);
 }
-
-
-
-
