@@ -149,3 +149,26 @@ div.mesa{
 	background-size: cover;
 	height: 300px;
 }
+
+/* Card */
+.card{
+	padding: 8px;
+	border-radius: 6px;
+	background: beige;
+}
+
+.card-profile-photo, .card-content{
+	display: inline-block;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+.card-profile-photo{
+	background-color: black;
+	width:120px;
+	height: 120px;
+	border-radius: 6px;
+}
+.card-content{
+	padding-left: 10px;
+	box-sizing: border-box;
+}
