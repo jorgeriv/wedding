@@ -32,9 +32,11 @@ nav#main-nav a{
 
 }
 .main-image{
-	background: grey;
+	background: url(main.jpg);
+	background-repeat: no-repeat;
+  background-position: center;
 	width: 100%;
-	height: 600px;
+	height: 500px;
 }
 
 .box{
@@ -80,6 +82,7 @@ h2#buzon{
 	font:  bold 15px Arial;
 	border: 1px solid #DAA520;
 	cursor: pointer; /*aparecerá la manito encima del boton NEW (for me)!!*/
+	padding: 5px;
 }
 div#formulario {
 	padding: 25px;
@@ -119,8 +122,32 @@ input{
 #boton:hover{
 	background: #fddb6f;
 	background-image: linear-gradient(to top, #ffb94b, #fddb6f);
+	
 }
 /*____fin formulario de mensajes para los novios__________*/
+#iniciosesion { 
+	display: block;
+	text-align: right;
+}
+p.ceremonymessage{
+	margin: 50px;
+}
+li{
+list-style: none;	
+}
+div.mesa{
+text-align: center;	
+}
+.mesas ul {
+padding: 0;
+}
+div.mesa{
+text-align: center;	
+}
+.noviazgo {
+background: url(C:\Users\Yolanda Ribas\Desktop\wedding\client\app\components\gallery\photos\1.JPG);
+
+}
 
 
 
