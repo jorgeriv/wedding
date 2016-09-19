@@ -31,6 +31,7 @@ ul.menu{
 
 .menu a{
   display: inline-block;
+	color: #7f5f00;
 	
 }
 
@@ -69,7 +70,7 @@ ul.menu-horizontal li{
 
 .unit-1-3{
   width: 33.3333%;
-	background: pink;
+	
 }
 .unit-2-3{
   width: 66.6666%;
