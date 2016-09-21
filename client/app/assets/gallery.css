@@ -1,0 +1,39 @@
+.title-gallery{
+	margin-left: 20px;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
+/* gallery */
+#noviazgo {
+	background: url(../components/gallery/photos/noviazgo/1.jpg);
+	background-size: cover;
+	height: 300px;
+}
+
+#compromiso	{
+	background: url(../components/gallery/photos/compromiso/1.jpg);
+	background-size: cover;
+	height: 300px;
+}
+#despedida {
+	background: url(../components/gallery/photos/despedida/1.jpg);
+	background-size: cover;
+	height: 300px;
+}
+#preboda {
+	background: url(../components/gallery/photos/preboda/1.jpg);
+	background-size: cover;
+	height: 300px;
+}
+#boda{
+	background: url(../components/gallery/photos/boda/1.jpg);
+	background-size: cover;
+	height: 300px;
+}
+#luna-de-miel {
+	background: url(../components/gallery/photos/luna-de-miel/1.jpg);
+	background-size: cover;
+	height: 300px;
+}
+/* end gallery */

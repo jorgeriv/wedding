@@ -1,0 +1,21 @@
+p.ceremonymessage{
+	margin: 50px;
+}
+
+.mesas{
+	background: url(../components/gallery/photos/mesas.jpg) center center no-repeat;
+	background-size: cover;
+	opacity: 0.3;
+}
+div.mesa{
+	text-align: center;
+
+}
+.mesas ul {
+	padding: 0;
+	color: black;
+	font-weight: bold;
+}
+div.mesa{
+	text-align: center;
+}

@@ -1,0 +1,118 @@
+/*____Formulario de mensajes para los novios__________*/
+#login {
+	background-image: linear-gradient( to top, #fff, #eee);
+	width: 450px;
+	height: 300px;
+	border-radius: 10px;
+	padding: 6px;
+	margin: auto;
+	box-shadow: 0px 10px 10px 5px #C0C0C0;
+}
+fieldset{
+	border: none;
+}
+h2#buzon{
+	text-align: center;
+	text-shadow: 0 2px 1px #DCDCDC;
+	margin: 0;
+}
+#boton {
+	margin-right: 30px;
+	width: 100px;
+	font:  bold 15px Arial;
+	border: 1px solid #DAA520;
+	cursor: pointer; /*aparecerá la manito encima del boton NEW (for me)!!*/
+	padding: 5px;
+}
+div#formulario {
+	padding: 25px;
+	margin: auto;
+	border: 1px dashed #ccc;
+	width: 396px;
+	height: 245px;
+}
+h2#buzon::after, h2#buzon::before {
+	content: " ";
+	height: 1px;
+	width: 120px;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+}
+h2#buzon::after {
+	background-image: linear-gradient(to right, #777, #fff);
+	left: 20px;
+}
+h2#buzon::before {
+	background-image: linear-gradient(to left, #777, #fff);
+	right: 20px;
+}
+input{
+	display: block;
+	background: #f1f1f1;
+	padding: 3px 3px 3px 10px;
+	margin: 0 0 15px 0;
+	display: block;
+	width: 370px;
+	height: 35px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px #ccc inset;
+}
+#boton:hover{
+	background: #fddb6f;
+	background-image: linear-gradient(to top, #ffb94b, #fddb6f);
+
+}
+
+
+/********
+ * Card *
+ ********/
+.card{
+	padding: 8px;
+	border-radius: 6px;
+	background: beige;
+}
+
+.card-profile-photo, .card-content{
+	display: inline-block;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+.card-profile-photo{
+	background-color: black;
+	width: 120px;
+	height: 120px;
+	border-radius: 6px;
+}
+.card-content{
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+/*************
+ * Countdown *
+ *************/
+ #countdown {
+ 	font-size: 2em;
+ 	text-align: center;
+ 	background: black;
+ 	color: white;
+ }
+
+ #countdown>span {
+ 	font-weight: 700;
+
+ }
+
+ /*******
+  * Box *
+	*******/
+	.box{
+		min-height: 300px;
+		background: #666;
+		box-sizing: border-box;
+		overflow: hidden;
+		padding: 5px 15px;
+	}
