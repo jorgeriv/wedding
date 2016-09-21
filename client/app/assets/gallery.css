@@ -1,10 +1,10 @@
-.title-gallery{
+/*.title-gallery{
 	margin-left: 20px;
 	color: white;
 	text-shadow: 1px 1px 3px black;
 }
 
-/* gallery */
+/* gallery /
 #noviazgo {
 	background: url(../components/gallery/photos/noviazgo/1.jpg);
 	background-size: cover;

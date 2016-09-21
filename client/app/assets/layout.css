@@ -1,3 +1,77 @@
+body{
+	background-color: #efefef;
+	color: #373737;
+}
+a{
+	outline: 0;
+}
+a, a:visited{
+	color: #d74575; /*mediumvioletred;*/
+}
+.wrapper{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-transform: capitalize;
+}
+header{
+	/*background-color: #dcd0c0;*/
+	/*background-color: #594d46;*/
+}
+header h1 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 5rem;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #373737;
+	color: #d1b280;
+	margin: 2rem .8rem 0;
+}
+
+header h3 {
+	font-size: 1rem;
+	color: #594d56;
+	margin-bottom: 3rem;
+}
+
+#main-nav{
+	background-color: #373737;
+}
+
+#main-nav ul{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+/*
+Los anclas tienen por defecto display inline, colocamos inline-block para que acepte el padding
+*/
+#main-nav a{
+	padding: 1em 0.8em 0.8em 0.8em;
+}
+
+/* Menus */
+.menu{
+  list-style: none;
+	padding: 0;
+  margin: 0;
+}
+
+.menu a{
+  display: inline-block;
+	/*color: #c0b283;*/
+	color: #d1b280;
+}
+
+.menu a:hover{
+  text-decoration: underline;
+}
+
+.menu-horizontal li{
+  display: inline-block;
+}
 
 .content{
 	padding: 0 25px;
@@ -6,4 +80,11 @@
 
 li{
 	list-style: none;
+}
+
+/* Footer */
+footer{
+	/*background-color: #373737;*/
+	/*background-color: #080706;*/
+	color:#373737;
 }
